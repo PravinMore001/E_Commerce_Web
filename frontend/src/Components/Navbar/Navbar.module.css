@@ -1,0 +1,75 @@
+.navbar {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid black;
+}
+
+.navlogo {
+    flex-basis: 25%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.menu {
+    flex-basis: 50%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.logincart {
+    flex-basis: 25%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logincart button {
+    height: 50px;
+    width: 50%;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+    background-color: beige;
+    cursor: pointer;
+}
+
+.cartcount {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    margin-left: -70px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    font-size: 100px;
+}
